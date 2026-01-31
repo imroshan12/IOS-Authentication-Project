@@ -12,6 +12,7 @@
 		7162D5C72F2AB9040009D6B6 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 7162D5C62F2AB9040009D6B6 /* GoogleSignIn */; };
 		7162D5C92F2AB9040009D6B6 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7162D5C82F2AB9040009D6B6 /* GoogleSignInSwift */; };
 		71DBBA632F2E3CCB002B2085 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 71DBBA622F2E3CC3002B2085 /* .gitignore */; };
+		71DBBA652F2E43FB002B2085 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 71DBBA642F2E43F4002B2085 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7175B2452E830E89002B8B38 /* Login ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7175B24F2E830E89002B8B38 /* Login ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DBBA622F2E3CC3002B2085 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		71DBBA642F2E43F4002B2085 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,6 +87,7 @@
 		7175B22F2E830E87002B8B38 = {
 			isa = PBXGroup;
 			children = (
+				71DBBA642F2E43F4002B2085 /* README.md */,
 				71DBBA622F2E3CC3002B2085 /* .gitignore */,
 				7175B23A2E830E87002B8B38 /* Login Project */,
 				7124B60C2F278D500022E75F /* Frameworks */,
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71DBBA632F2E3CCB002B2085 /* .gitignore in Resources */,
+				71DBBA652F2E43FB002B2085 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
