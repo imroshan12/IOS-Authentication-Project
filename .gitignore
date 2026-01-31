@@ -1,0 +1,159 @@
+####################################
+# OS
+####################################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+####################################
+# Logs
+####################################
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+####################################
+# Node / React Native
+####################################
+node_modules/
+npm-debug.log*
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Metro
+.metro-health-check*
+.metro-cache/
+haste-map-*
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+
+####################################
+# Environment / Secrets
+####################################
+.env
+.env.*
+*.env
+*.env.*
+Secrets.plist
+Config.plist
+credentials.json
+serviceAccountKey.json
+
+####################################
+# Firebase
+####################################
+GoogleService-Info.plist
+google-services.json
+firebase.json
+.firebaserc
+
+####################################
+# iOS / Xcode
+####################################
+ios/Pods/
+ios/Podfile.lock
+
+DerivedData/
+build/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# SwiftPM
+.swiftpm/
+.build/
+
+# iOS artifacts
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+####################################
+# Android / Gradle
+####################################
+android/.gradle/
+android/.idea/
+android/local.properties
+android/*.iml
+android/build/
+android/app/build/
+android/app/debug/
+android/app/release/
+
+# Keystore
+*.keystore
+*.jks
+
+####################################
+# Kotlin / Java
+####################################
+*.class
+*.jar
+
+####################################
+# Fastlane
+####################################
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+####################################
+# Coverage / Testing
+####################################
+coverage/
+*.lcov
+*.profdata
+test-results/
+
+####################################
+# CI
+####################################
+ci_scripts/
+.tmp/
+.cache/
+
+####################################
+# VS Code / Editors
+####################################
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+####################################
+# Archives
+####################################
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+####################################
+# Optional — Uncomment if needed
+####################################
+# *.plist        # ❌ usually NOT recommended
+# *.json         # ❌ breaks RN configs
+
